@@ -1,13 +1,13 @@
 module.exports.config = {
-  name: "report",
-  version: "1.0.1", 
-  hasPermssion: 0,
-  credits: "Joshua Sy", //don't change the credits please
-  description: "Admin and Bot info.",
-  commandCategory: "...",
-  cooldowns: 1,
-  dependencies: 
-  {
+	name: "info",
+	version: "1.0.1", 
+	hasPermssion: 0,
+	credits: "Joshua Sy", //don't change the credits please
+	description: "Admin and Bot info.",
+	commandCategory: "...",
+	cooldowns: 1,
+	dependencies: 
+	{
     "request":"",
     "fs-extra":"",
     "axios":""
@@ -18,18 +18,18 @@ const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
 const time = process.uptime(),
-    hours = Math.floor(time / (60 * 60)),
-    minutes = Math.floor((time % (60 * 60)) / 60),
-    seconds = Math.floor(time % 60);
+		hours = Math.floor(time / (60 * 60)),
+		minutes = Math.floor((time % (60 * 60)) / 60),
+		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.postimg.cc/FHP2DSDF/1709650299773.jpg", 
-
-            "https://i.postimg.cc/L8sWYXRc/1709650303181.jpg", 
+var link = ["https://i.postimg.cc/4xksYYT7/Screenshot-20250608-235957.jpg", 
+            
+            "https://i.postimg.cc/1zMQ7MVw/Screenshot-20250608-235942.jpg", 
              "https://i.postimg.cc/mgqmPym9/1709650306209.jpg",
-
+            
             "https://i.postimg.cc/MHWDCPpC/1709650312837.jpg"];
-
+  
 var callback = () => api.sendMessage({body:`জ্বী বলুন শুনতেছি......
 ADMIN AND BOT INFORMATION 
 BOT NAME : 🤖SHOWROB ＢｏＴ- 69🤖 
@@ -42,18 +42,17 @@ BOT NAME : 🤖SHOWROB ＢｏＴ- 69🤖
 
 - স্থায়ী ঠিকানা    : ঢাকা
 
-- বয়স          : ২১+
+- বয়স          : ❌
 
 - GENDER       : MALE
 
 - উচ্চতা         : ৫ ফুট ৬ইঞ্চি
 
-- জন্ম তারিখ     : ২৩ সেপ্টেম্বর ২০০১
+- জন্ম তারিখ     : ২৩ সেপ্টেম্বর ❌
 
 - পেশা          : স্টুডেন্ট 
 
-- যোগ্যতা        : অনার্স ২য় বর্ষ 
-
+- যোগ্যতা        : ১ম শ্রেণী
 - রিলেশন শিপ    : সিঙ্গেল 
 
 - প্রিয় রং        : কালো ⚫😇
@@ -65,12 +64,12 @@ BOT NAME : 🤖SHOWROB ＢｏＴ- 69🤖
 - ইচ্ছা           : নাই
 
 - আসল পরিচয়     : ইসলাম🌸🌺
+  
+Profile 1 Link :- https://www.facebook.com/SHOWROB.YOUR.FATHER
 
-Profile 1 Link :- https://www.facebook.com/YOUR.TOM.009
+Profile 2 Link :- https://www.facebook.com/NOT.FOUND.THIS.LINK.SIR
 
-Profile 2 Link :- https://www.facebook.com/Opps.not.found.this.link.sir
-
-★Facebook Page Link:-https://www.facebook.com/ex.boyfriend.009
+★Facebook Page Link:-https://www.facebook.com/MR.TOM69K
 
 WhatsApp       :- Personal
 
