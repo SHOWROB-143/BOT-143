@@ -33,7 +33,7 @@ module.exports.run = async function({ api, event }) {
   api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
   const fs = require("fs");
   return api.sendMessage("চলে এসেছি আমি সৌরভ BOT🤖", event.threadID, () => api.sendMessage({body:`আসসালামুআলাইকুম❤️
-🤖\nBOT CONNECTED!!! \nadding in the group chat successfully!!!\nTHANKS FOR ADDING YOUR GROUP\n\nOWNER: SHOWROB CHOWDHURY\nFACEBOOK : https://facebook.com/LINK.DIYA.KI.BAL.FALAIBA.009\nEMAIL: showrobkhan041@gmail.com\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}mark (text)\n${global.config.PREFIX}lexi (text)\n${global.config.PREFIX}trump (text)\n${global.config.PREFIX}info 
+🤖\nBOT CONNECTED!!! \nadding in the group chat successfully!!!\nTHANKS FOR ADDING YOUR GROUP\n\nOWNER: SHOWROB KHAN\nFACEBOOK : https://www.facebook.com/SHOWROB.YOUR.FATHER\nEMAIL: showrobkhan041@gmail.com\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}mark (text)\n${global.config.PREFIX}lexi (text)\n${global.config.PREFIX}trump (text)\n${global.config.PREFIX}info 
 `, attachment: fs.createReadStream(__dirname + "/cache/intro.mp4")} ,threadID));
  }
  else {
