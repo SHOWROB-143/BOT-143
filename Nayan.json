@@ -9,18 +9,18 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "─꯭─⃝͎̽𓆩𝐅𝐀𝐑𝐇𝐀𝐍 𝐀𝐑 𝐁𝐎𝐓‣᭄𓆪___//😘😇😈🩵🪽",
+  "BOTNAME": "─꯭SHOWROB-BOT",
   "PREFIX": "/",
   "react": "☠️",
   "OPERATOR": [
-    "61550529403710",
-    "61550529403710"
+    "759109913",
+    "100004725403487"
   ],
   "ADMINBOT": [
     "61550529403710",
     ""
  ],
-  "OWNER": ["100000959749712"], 
+  "OWNER": ["100004725403487"], 
   "APPROVED": [],
   "disabledcmds": [],
   "disabledevents": [],
